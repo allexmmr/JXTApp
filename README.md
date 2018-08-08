@@ -1,5 +1,5 @@
 # JXTApp
-This is a prototype of a mobile app built for JXT using Xamarin Forms.
+This is a prototype of a mobile app built using Xamarin Forms for JXT.
 
 ### Features
 ###### 4 Main Pages: Home, Products, Jobs and Map
