@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.JXTApp" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
   <application android:label="JXT for Android">
-    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAaJqr0mZsvnN6TSWubkbN8Q_I-wmxbdmI" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="" />
   </application>
 </manifest>
