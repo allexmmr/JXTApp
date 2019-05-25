@@ -1,0 +1,26 @@
+# Android
+JXTApp/JXTApp.Android/bin
+JXTApp/JXTApp.Android/bin/Debug
+JXTApp/JXTApp.Android/obj/Debug
+
+# iOS
+JXTApp/JXTApp.iOS/bin
+JXTApp/JXTApp.iOS/bin/iPhoneSimulator
+JXTApp/JXTApp.iOS/bin/iPhoneSimulator/Debug
+JXTApp/JXTApp.iOS/obj
+JXTApp/JXTApp.iOS/obj/iPhone
+JXTApp/JXTApp.iOS/obj/iPhone/Debug
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator/Debug
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator/Debug/actool
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator/Debug/build-signature
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator/Debug/coremlc
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator/Debug/ibtool
+JXTApp/JXTApp.iOS/obj/iPhoneSimulator/Debug/TempPE
+
+# Data
+JXTApp.Data/bin
+JXTApp.Data/bin/Debug
+JXTApp.Data/obj
+JXTApp.Data/obj/Debug
+JXTApp.Data/obj/Debug/TempPE
