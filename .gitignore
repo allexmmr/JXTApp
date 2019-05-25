@@ -2,6 +2,7 @@
 JXTApp/JXTApp.Android/bin
 JXTApp/JXTApp.Android/bin/Debug
 JXTApp/JXTApp.Android/obj/Debug
+JXTApp/JXTApp.Android/Properties/AndroidManifest.xml
 
 # iOS
 JXTApp/JXTApp.iOS/bin
