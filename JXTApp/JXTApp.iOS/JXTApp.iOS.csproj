@@ -152,9 +152,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
     <PackageReference Include="Xamarin.Forms.Maps">
-      <Version>3.1.0.637273</Version>
+      <Version>3.6.0.344457</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -176,10 +176,6 @@
     <BundleResource Include="Resources\jxt.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JXTApp.Common\JXTApp.Common.csproj">
-      <Project>{ccda8bf0-c066-4705-a104-6dc0f6f15d4d}</Project>
-      <Name>JXTApp.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\JXTApp.Data\JXTApp.Data.csproj">
       <Project>{a6fd2b51-fee0-4564-b797-f94099857242}</Project>
       <Name>JXTApp.Data</Name>
@@ -199,6 +195,9 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Payboss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\header.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\JXTApp\JXTApp.projitems" Label="Shared" />

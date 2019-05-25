@@ -13,11 +13,10 @@
 namespace JXTApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Allex.DESKTOP-0RP8NM9\\Documents\\Visual Studio 2017\\Projects\\JXTApp\\JXTAp" +
-        "p\\JXTApp\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Allex.DESKTOP-0RP8NM9\\Downloads\\JXTApp\\JXTApp\\JXTApp\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
         }

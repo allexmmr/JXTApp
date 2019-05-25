@@ -9,11 +9,11 @@ namespace JXTApp.Pages.Jobs
     {
         public IndexPage()
         {
-            var jobs = JobsService.ListAll();
+            List<Data.Models.Jobs> jobs = JobsService.ListAll();
 
             Dictionary<int, string> source = new Dictionary<int, string>();
 
-            foreach (var job in jobs)
+            foreach (Data.Models.Jobs job in jobs)
             {
                 source.Add(job.JobId, $"{job.JobId.ToString("0000000")} :: {job.JobName}");
             }
@@ -51,7 +51,6 @@ namespace JXTApp.Pages.Jobs
 
             if (show)
             {
-                //Application.Current.MainPage = new DetailsPage(jobId);
                 await Navigation.PushModalAsync(new DetailsPage(jobId));
             }
         }

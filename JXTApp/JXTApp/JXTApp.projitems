@@ -20,6 +20,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\IndexPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\Jobs\SuccessPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\Jobs\DetailsPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\Jobs\IndexPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\MapPage.cs" />

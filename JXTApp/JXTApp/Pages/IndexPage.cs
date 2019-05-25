@@ -15,10 +15,9 @@ namespace JXTApp.Pages
                         new Image
                         {
                             Aspect = Aspect.AspectFill,
-                            Source =  ImageSource.FromFile("background.png")
+                            Source =  "background.png"
                         }
                     },
-
                     VerticalOptions = LayoutOptions.FillAndExpand,
                     BackgroundColor = Color.FromHex("#002d3d")
                 }

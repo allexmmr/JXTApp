@@ -7,7 +7,7 @@ namespace JXTApp.Pages
     {
         public MapPage()
         {
-            Position position = new Position(-33.8696608, 151.2040941);
+            Position position = new Position(-33.8671564, 151.2086889);
 
             Map map = new Map(MapSpan.FromCenterAndRadius(position, Distance.FromKilometers(0.3)))
             {
@@ -19,7 +19,7 @@ namespace JXTApp.Pages
                 Type = PinType.Place,
                 Position = position,
                 Label = "JXT Global Pty Ltd",
-                Address = "2/50 York Street, Sydney"
+                Address = "3/92 Pitt St, Sydney"
             });
 
             Content = new StackLayout
